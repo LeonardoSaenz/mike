@@ -1,0 +1,57 @@
+#container {
+  text-align: center;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+ion-toolbar.background{
+  --background: white;
+}
+ion-text.color
+{
+  color: rgb(2, 158, 62);
+  font-family:  "Times new Roman";
+  letter-spacing: 0.6px;
+  word-spacing: 0px;
+  font-weight: normal;
+
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+}
+ion-icon.color
+{
+  color:rgb(2, 158, 62);
+}
+ion-card.background
+{
+  --background: rgba(0, 139, 58, 0.527);
+}
+ion-content.background
+{
+  --background: white;
+  --size: cover
+}
+//--background: url(../../assets/home/fondo3.jpg);

@@ -1,0 +1,51 @@
+
+  <ion-toolbar  class = "background">
+
+
+    
+    <ion-text class = "color"> 
+      <h1 class="ion-text-center">Sembradíos SJ</h1>
+    </ion-text>
+    <ion-button slot = "end">
+      <ion-icon name="information-circle" ></ion-icon>
+    </ion-button>
+  </ion-toolbar>
+
+  <ion-content class = "background" >
+    <ion-card class ="background">
+      <ion-label>
+        Contenido de la Card
+      </ion-label>
+      <ion-footer>
+       Footer
+      </ion-footer>
+    </ion-card>
+    <app-sharingan></app-sharingan>
+    <app-menu></app-menu>
+  </ion-content>
+
+  <ion-tabs>
+    <ion-tab-bar slot="bottom" color = "white">
+      
+      <ion-tab-button tab="speakers" routerLink="/pagina2">
+        <ion-icon name="person-circle" color = "primary"></ion-icon>
+        <ion-label>Contacto</ion-label>
+      </ion-tab-button>
+  
+      <ion-tab-button tab="map">
+        <ion-icon name="map" class = "color"></ion-icon>
+        <ion-label>Cómo llegar</ion-label>
+      </ion-tab-button>
+  
+      <ion-tab-button tab="about">
+        <ion-icon name="information-circle" color = "primary"></ion-icon>
+        <ion-label>Información</ion-label>
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
+
+ 
+
+
+
+
